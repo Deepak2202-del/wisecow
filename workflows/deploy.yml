@@ -46,4 +46,3 @@ jobs:
         echo "${KUBE_CONFIG_DATA}" | base64 --decode > kubeconfig
         kubectl --kubeconfig=kubeconfig apply -f deployment.yaml
         kubectl --kubeconfig=kubeconfig apply -f service.yaml
-
