@@ -17,4 +17,3 @@ spec:
         image: wisecow:latest
         ports:
         - containerPort: 5000
-
